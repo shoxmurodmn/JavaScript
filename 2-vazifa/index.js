@@ -7,4 +7,4 @@ for (let i = 0; i < str.length; i++) {
    sum += digit;
 }
 
-console.log("raqamlar yig'indisi ",sum); 
+

@@ -21,7 +21,7 @@ salom = () => {
 
 salom()
 
-
+// 2 vazifa
 let son1 = parseInt(Math.random() * 100)
 let son2 = parseInt(Math.random() * 100)
 let son3 = parseInt(Math.random() * 100)
@@ -41,5 +41,22 @@ urtacha = () => {
 
 urtacha()
 
+let qu = -12.56
+ // 3 vazifa
+console.log(Math.trunc(-12.1)); // butun qismini olib beradi
+console.log(Math.floor(qu)); // pastga qarab yaxlidlaydi
+console.log(Math.ceil(qu)); // tetaga qarab yaxlidladi
+console.log(parseInt(qu)); // butun qismini olib beradi
 
 
+// 4 vazifa 
+
+birinch: for (let i = 0; ;) {
+
+   let rand = parseInt(Math.random() * 50)
+
+   if (rand > 1 && rand < 50) {
+      console.log(`ixtiyori son ${rand}`)
+      break birinch;
+   }
+}

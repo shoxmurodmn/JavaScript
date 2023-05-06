@@ -60,3 +60,5 @@ birinch: for (let i = 0; ;) {
       break birinch;
    }
 }
+
+console.log(parseInt('0011',2));

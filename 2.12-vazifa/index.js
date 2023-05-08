@@ -47,3 +47,28 @@ let status3 = () => {
 // status2();
 // status3();
 
+let start = 10
+let end = 400
+
+
+
+for (let i = start; i <= end; i++) {
+   let res = i.toString().split("")
+   let ta = false
+   for (n of res) {
+      if (res[0] == n) { ta = true }
+      else {
+         ta = false
+         break;
+      }
+   }
+
+   if (res.length > 1 && ta) console.log(res.join(''))
+
+
+
+}
+
+
+
+
